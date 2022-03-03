@@ -1,0 +1,140 @@
+@font-face {
+	font-family: "standard";
+	src: url("fonts/standard/standard-book.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "standard-bold";
+	src: url("fonts/standard/standard-bold.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "standard-italic";
+	src: url("fonts/standard/standard-book-italic.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "xenara";
+	src: url("fonts/xenara-bold.ttf") format("truetype");
+}
+
+html {
+	background-color: #ccc;
+}
+
+body {
+	padding: 1rem 0.5rem 1rem 0.5rem;
+	font-family: "standard";
+}
+
+h1 {
+	font-size: 2em;
+	font-family: "xenara";
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+a:visited {
+	color: blue;
+}
+
+ul {
+	margin-left: 0;
+}
+
+.link,
+.credit-link {
+	border: 1px solid blue;
+	border-radius: 5px;
+	padding: 0.5rem 0.5rem 0.25rem 0.5rem;
+	display: inline-block;
+	margin-right: 0.5em;
+	font-size: 0.9em;
+	margin-top: 0.5em;
+}
+
+.credit-link {
+	width: calc(50vw - 4rem);
+	border-color: black;
+	font-size: 1em;
+}
+
+.content {
+	display: block;
+}
+
+.ep-title {
+	font-size: 1.5em;
+	cursor: pointer;
+	font-family: "xenara";
+	max-width: calc(50vw - 1rem);
+	border: 1px solid blue;
+	border-radius: 5px;
+	padding: 0.5rem;
+	margin-bottom: 0.5em;
+	display: inline-block;
+	box-shadow: 0 0 10px 5px rgba(0, 0, 255, 0.15), inset 0 0 10px 5px rgba(0, 0, 255, 0.15);
+	color: blue;
+}
+
+.sub,
+.description {
+	margin: 1em 0 1em 0;
+}
+
+.episodes {
+	margin: 1em;
+}
+
+.episode {
+	margin: 1.5em 0 3em 0;
+}
+
+.sub-title {
+	margin-bottom: 0.5em;
+	font-family: "standard-italic", "standard", Arial, sans-serif;
+	/* font-style: italic; */
+	font-size: 0.9em;
+}
+
+.ep-desc {
+	display: none;
+	margin-top: 1em;
+}
+
+.cred-title {
+	font-family: "xenara";
+	margin: 1em 0 1em 0;
+	font-size: 1.5em;
+}
+
+.refs {
+	margin-top: 1em;
+	font-size: 0.9em;
+}
+
+.credit .content {
+	margin-bottom: 1em;
+}
+
+.credit .ep-title {
+	box-shadow: none;
+}
+
+.credit-desc {
+	margin-left: 1em;
+}
+
+img.logo {
+	width: 20vw;
+	height: auto;
+	position: fixed;
+	top: 1.5rem;
+	right: 1rem;
+	border: 1px solid blue;
+	border-radius: 5px;
+	box-shadow: 0 0 10px 5px rgba(0, 0, 255, 0.2);
+}
