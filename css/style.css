@@ -30,6 +30,8 @@ body {
 h1 {
 	font-size: 2em;
 	font-family: "xenara";
+	color: darkgreen;
+	text-shadow: 2px 2px 8px rgba(0, 0, 255, 0.5);
 }
 
 a {
@@ -47,7 +49,7 @@ ul {
 
 .link,
 .credit-link {
-	border: 1px solid blue;
+	border: 1px solid darkgreen;
 	border-radius: 5px;
 	padding: 0.5rem 0.5rem 0.25rem 0.5rem;
 	display: inline-block;
@@ -77,7 +79,7 @@ ul {
 	margin-bottom: 0.5em;
 	display: inline-block;
 	box-shadow: 0 0 10px 5px rgba(0, 0, 255, 0.15), inset 0 0 10px 5px rgba(0, 0, 255, 0.15);
-	color: blue;
+	color: hotpink;
 }
 
 .sub,
