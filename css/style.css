@@ -140,3 +140,15 @@ img.logo {
 	border-radius: 5px;
 	box-shadow: 0 0 10px 5px rgba(0, 0, 255, 0.2);
 }
+
+@media (max-device-width: 870px) and (max-device-height: 870px) {
+	h1,
+	.description {
+		width: calc(100vw - 20vw - 1rem);
+	}
+
+	.link,
+	.credit-link {
+		margin-top: 0;
+	}
+}
