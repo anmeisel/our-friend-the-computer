@@ -151,4 +151,8 @@ img.logo {
 	.credit-link {
 		padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 	}
+
+	.credit-link {
+		width: calc(50vw - 5rem);
+	}
 }
